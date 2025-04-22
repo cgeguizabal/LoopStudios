@@ -41,6 +41,16 @@ function App() {
                 <a href="#">Support</a>
                 <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
               </div>
+              <div class="attribution">
+                Challenge by{" "}
+                <a
+                  href="https://www.frontendmentor.io?ref=challenge"
+                  target="_blank"
+                >
+                  Frontend Mentor
+                </a>
+                . Coded by <a href="#">Your Name Here</a>.
+              </div>
             </div>
             {/* @TO DO HAMBURGER BUTTON */}
 
@@ -64,19 +74,19 @@ function App() {
             id="menu"
             class={`absolute top-0 bottom-0 left-0 ${menuClass} flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black`}
           >
-            <a href="#" class="hover:text-pink-500">
+            <a href="#" className="hover:text-pink-500">
               About
             </a>
-            <a href="#" class="hover:text-pink-500">
+            <a href="#" className="hover:text-pink-500">
               Careers
             </a>
-            <a href="#" class="hover:text-pink-500">
+            <a href="#" classsName="hover:text-pink-500">
               Events
             </a>
-            <a href="#" class="hover:text-pink-500">
+            <a href="#" classsName="hover:text-pink-500">
               Products
             </a>
-            <a href="#" class="hover:text-pink-500">
+            <a href="#" classsName="hover:text-pink-500">
               Support
             </a>
           </div>
@@ -282,79 +292,97 @@ function App() {
           </div>
         </div>
       </section>
-      <footer class="bg-black">
+      <footer className="bg-black">
         {/* <!-- Container --> */}
-        <div class="container max-w-6xl py-10 mx-auto">
+        <div className="container max-w-6xl py-10 mx-auto">
           {/* <!-- Footer Flex Container --> */}
-          <div class="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
+          <div className="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
             {/* <!-- Menu & Logo Container --> */}
-            <div class="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
+            <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
               {/* <!-- Logo --> */}
-              <div class="h-8">
+              <div classNames="h-8">
                 <img src="/logo.svg" alt="" class="w-44 md:ml-3" />
               </div>
               {/* <!-- Menu Container --> */}
-              <div class="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+              <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
                 {/* <!-- Item 1 --> */}
-                <div class="h-10 group">
+                <div className="h-10 group">
                   <a href="#">About</a>
-                  <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                 </div>
                 {/* <!-- Item 2 --> */}
-                <div class="h-10 group">
+                <div className="h-10 group">
                   <a href="#">Careers</a>
-                  <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                 </div>
                 {/* <!-- Item 3 --> */}
-                <div class="h-10 group">
+                <div className="h-10 group">
                   <a href="#">Events</a>
                   <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                 </div>
                 {/* <!-- Item 4 --> */}
-                <div class="h-10 group">
+                <div className="h-10 group">
                   <a href="#">Products</a>
-                  <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                 </div>
                 {/* <!-- Item 5 --> */}
-                <div class="h-10 group">
+                <div className="h-10 group">
                   <a href="#">Support</a>
-                  <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                  <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                 </div>
+              </div>
+              <div className="attribution text-white">
+                Challenge by{" "}
+                <a
+                  className="text-pink-500"
+                  href="https://www.frontendmentor.io?ref=challenge"
+                  target="_blank"
+                >
+                  Frontend Mentor
+                </a>
+                . Coded by{" "}
+                <a
+                  className="text-pink-500"
+                  href="https://www.frontendmentor.io/profile/cgeguizabal"
+                >
+                  Guillermo Eguizabal
+                </a>
+                .
               </div>
             </div>
 
             {/* <!-- Social & Copy Container --> */}
-            <div class="flex flex-col items-start justify-between space-y-4 text-gray-500">
+            <div className="flex flex-col items-start justify-between space-y-4 text-gray-500">
               {/* <!-- icons Container --> */}
-              <div class="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
+              <div className="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
                 {/* <!-- Icon 1 --> */}
-                <div class="h-8 group">
+                <div className="h-8 group">
                   <a href="#">
-                    <img src="/icon-facebook.svg" alt="" class="h-6" />
+                    <img src="/icon-facebook.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* <!-- Icon 2 --> */}
-                <div class="h-8 group">
+                <div className="h-8 group">
                   <a href="#">
-                    <img src="/icon-twitter.svg" alt="" class="h-6" />
+                    <img src="/icon-twitter.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* <!-- Icon 3 --> */}
-                <div class="h-8 group">
+                <div className="h-8 group">
                   <a href="#">
-                    <img src="/icon-pinterest.svg" alt="" class="h-6" />
+                    <img src="/icon-pinterest.svg" alt="" className="h-6" />
                   </a>
                 </div>
                 {/* <!-- Icon 4 --> */}
-                <div class="h-8 group">
+                <div className="h-8 group">
                   <a href="#">
-                    <img src="/icon-instagram.svg" alt="" class="h-6" />
+                    <img src="/icon-instagram.svg" alt="" className="h-6" />
                   </a>
                 </div>
               </div>
 
               {/* <!-- Copy --> */}
-              <div class="font-bold">
+              <div className="font-bold">
                 &copy; 2022 Loopstudios. All Rights Reserved
               </div>
             </div>
