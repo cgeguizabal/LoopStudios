@@ -2,10 +2,10 @@
 
 This project is a responsive website replicating the Loopstudios landing page challenge from Frontend Mentor.
 
---
+---
 #preview
 https://loop-studios-cgeo.vercel.app/
---
+---
 
 ## Features
 
